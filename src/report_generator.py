@@ -1,0 +1,41 @@
+import os
+import matplotlib.pyplot as plt
+def generate_reports(kpis):
+    os.makedirs("reports", exist_ok=True)
+
+    plt.figure(figsize=(8,5))
+    kpis["Sales by Category"].plot(kind="bar")
+    plt.title("Sales by Category")
+    plt.xlabel("Category")
+    plt.ylabel("Sales")
+    plt.tight_layout()
+    plt.savefig("reports/sales_by_category.png")
+    plt.close()
+       
+    plt.figure(figsize=(8,5))
+    kpis["Sales by Region"].plot(kind="bar")
+    plt.title("Sales by Region")
+    plt.xlabel("Region")
+    plt.ylabel("Sales")
+    plt.tight_layout()
+    plt.savefig("reports/sales_by_region.png")
+    plt.close()
+
+    plt.figure(figsize=(12,5))
+    kpis["Monthly Sales"].plot(kind="line", marker="o")
+    plt.title("Monthly Sales Trend")
+    plt.xlabel("Month")
+    plt.ylabel("Sales")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig("reports/monthly_sales_trend.png")
+    plt.close()
+
+    plt.figure(figsize=(12,8))
+    kpis["top 10 products"].plot(kind="barh")
+    plt.title("top 10 products by Sales")
+    plt.xlabel("Sales")
+    plt.ylabel("Product")
+    plt.tight_layout()
+    plt.savefig("reports/top_10_products.png")
+    plt.close()
