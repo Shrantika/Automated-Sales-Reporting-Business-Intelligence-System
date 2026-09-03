@@ -76,3 +76,29 @@ Automated-Sales-Reporting-Business-Intelligence-System/
 ├── README.md
 └── .gitignore
 
+## How it works
+
+Raw CSV
+   ↓
+Load Data
+   ↓
+Clean & Preprocess
+   ↓
+Feature Engineering
+   ↓
+Calculate KPIs
+   ↓
+Generate Reports
+   ↓
+Streamlit Dashboard
+
+## KPIs
+
+- Total Sales
+- Total Orders
+- Average Order Value
+- Sales by Category
+- Sales by Region
+- Sales by Segment
+- Top 10 Products by Sales
+- Monthly Sales Trend
