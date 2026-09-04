@@ -167,6 +167,7 @@ The project uses the Sample Superstore Sales Dataset from Kaggle.
 Screenshots of the dashboard will be added here.
 <img width="1912" height="749" alt="image" src="https://github.com/user-attachments/assets/cf2ae2c9-7bf0-4a29-bcc6-a3390fb410a1" />
 
+<img width="1915" height="839" alt="image" src="https://github.com/user-attachments/assets/e89b9834-10d7-4d7e-9a69-ae59cd01b388" />
 
 ## Future Improvements
 
