@@ -1,6 +1,6 @@
 # Automated Sales Reporting & Business Intelligence System
 
-A Python-based sales analytics project that takes raw sales data, cleans it, calculates useful business metrics, and presents the results through reports and an interactive Streamlit dashboard.
+A Python-based sales analytics project that takes raw sales data, cleans it, calculates useful business metrics, and presents the results through automated reports and an interactive Streamlit dashboard.
 
 ## What it does
 
@@ -8,6 +8,7 @@ A Python-based sales analytics project that takes raw sales data, cleans it, cal
 - Cleans and preprocesses the data
 - Handles missing and duplicate records
 - Converts and extracts information from date columns
+- Performs feature engineering
 - Calculates business KPIs
 - Generates sales reports and charts
 - Provides an interactive Streamlit dashboard
@@ -75,9 +76,11 @@ Automated-Sales-Reporting-Business-Intelligence-System/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## How it works
 
+```text
 Raw CSV
    ↓
 Load Data
@@ -91,6 +94,7 @@ Calculate KPIs
 Generate Reports
    ↓
 Streamlit Dashboard
+```
 
 ## KPIs
 
@@ -102,3 +106,79 @@ Streamlit Dashboard
 - Sales by Segment
 - Top 10 Products by Sales
 - Monthly Sales Trend
+
+## Running the project
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Shrantika/Automated-Sales-Reporting-Business-Intelligence-System.git
+cd Automated-Sales-Reporting-Business-Intelligence-System
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+Activate it:
+
+**Linux / macOS**
+
+```bash
+source .venv/bin/activate
+```
+
+**Windows**
+
+```bash
+.venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the reporting pipeline
+
+```bash
+python main.py
+```
+
+This processes the sales data and generates the reports.
+
+### 5. Run the dashboard
+
+```bash
+streamlit run dashboard/app.py
+```
+
+The dashboard will open in your browser.
+
+## Dataset
+
+The project uses the Sample Superstore Sales Dataset from Kaggle.
+
+## Dashboard Preview
+
+Screenshots of the dashboard will be added here.
+
+## Future Improvements
+
+- Power BI dashboard
+- SQL database integration
+- Automated email reports
+- Sales forecasting
+- PDF report generation
+- Docker deployment
+- Cloud deployment
+
+## Author
+
+**Shrantika**
+
+GitHub:  
+https://github.com/Shrantika
