@@ -169,6 +169,8 @@ Screenshots of the dashboard will be added here.
 
 <img width="1915" height="839" alt="image" src="https://github.com/user-attachments/assets/e89b9834-10d7-4d7e-9a69-ae59cd01b388" />
 
+Live dashboard: https://automated-sales-reporting-business-intelligence-system-uuvkqw2.streamlit.app/
+
 ## Future Improvements
 
 - Power BI dashboard
